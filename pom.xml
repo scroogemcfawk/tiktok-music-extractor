@@ -6,7 +6,7 @@
 
     <groupId>org.scroogemcfawk</groupId>
     <artifactId>TikTokMusicExctractor</artifactId>
-    <version>v0.0.1</version>
+    <version>v0.0.2</version>
 
     <properties>
         <slf4j.version>1.7.25</slf4j.version>

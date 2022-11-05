@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04a11aee-7fef-496f-aad2-c15c19c821dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MusicParser.java" afterDir="false" />
+    <list default="true" id="04a11aee-7fef-496f-aad2-c15c19c821dc" name="Changes" comment="Initial commit. First version of parser v0.0.1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +44,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,8 +56,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667375226062</updated>
-      <workItem from="1667375227361" duration="10393000" />
+      <workItem from="1667375227361" duration="10627000" />
+      <workItem from="1667639158916" duration="1929000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit. First version of parser v0.0.1">
+      <created>1667388802780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667388802780</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit. First version of parser v0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. First version of parser v0.0.1" />
   </component>
 </project>
