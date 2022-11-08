@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04a11aee-7fef-496f-aad2-c15c19c821dc" name="Changes" comment="Initial commit. First version of parser v0.0.1">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="04a11aee-7fef-496f-aad2-c15c19c821dc" name="Changes" comment="New: Video parser v0.0.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shazamer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MusicParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -45,9 +47,31 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editing.templates"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Shazamer">
+    <configuration name="MusicParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MusicParser" />
+      <module name="TikTokMusicExctractor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shazamer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shazamer" />
+      <module name="TikTokMusicExctractor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Shazamer" />
+        <item itemvalue="Application.MusicParser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +81,9 @@
       <option name="presentableId" value="Default" />
       <updated>1667375226062</updated>
       <workItem from="1667375227361" duration="10627000" />
-      <workItem from="1667639158916" duration="1929000" />
+      <workItem from="1667639158916" duration="2054000" />
+      <workItem from="1667808441205" duration="1690000" />
+      <workItem from="1667882020148" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. First version of parser v0.0.1">
       <created>1667388802780</created>
@@ -66,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667388802780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New: Video parser v0.0.2">
+      <created>1667642136923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667642136923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. First version of parser v0.0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. First version of parser v0.0.1" />
+    <MESSAGE value="New: Video parser v0.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="New: Video parser v0.0.2" />
   </component>
 </project>
