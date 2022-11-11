@@ -8,12 +8,16 @@ import java.io.IOException;
 
 /**
  * Gets the URL of music source from given TikTok video or music URL.
- *
  * @since v0.0.1
  */
 public class MusicParser
 {
     private static final Logger logger = LoggerFactory.getLogger(MusicParser.class);
+
+    private MusicParser()
+    {
+        throw new IllegalStateException("Utility class");
+    }
 
     public static String get(String url) throws Exception
     {
@@ -50,18 +54,5 @@ public class MusicParser
         {
             throw new RuntimeException(e);
         }
-    }
-
-    public static void main(String[] args) throws Exception
-    {
-        String url = "https://www.tiktok.com/music/Cool-for-the-Summer-Sped-Up-Nightcore-7067574132983991045?_d" +
-                     "=secCgYIASAHKAESPgo8iTlnQLKqD5%2BYzJDtDmT%2FymdUjZvvV7ymamczyiQdIVsMecyTVMLRG68RM%2BD" +
-                     "%2FdomrkMCiWb6Oi1MSq1PaGgA%3D&_r=1&language=en&sec_user_id" +
-                     "=MS4wLjABAAAA7__kURiSKYxLyDuB4cnzZ_sIABe8XIxjw3K9R0c3KLwnEwLdk06ZKbNtG2Jet9Cs&share_app_id=1233" +
-                     "&share_link_id=b2476394-207f-4547-aa4d-2e05b9cb776b&share_music_id=7067574132983991045&source" +
-                     "=h5_m" +
-                     "&timestamp=1667374361&u_code=dmabmlfkcef9h9&ugbiz_name=Unknown&user_id=7044619555884696578" +
-                     "&utm_campaign=client_share&utm_medium=android&utm_source=telegram";
-        System.out.println(get(url));
     }
 }
