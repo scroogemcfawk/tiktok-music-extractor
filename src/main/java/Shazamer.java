@@ -8,6 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
+ * It has to find the name and Spotify, YouTube etc. links to original music from given TikTok music source URL
  * @since v0.0.3
  */
 
